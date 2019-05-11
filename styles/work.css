@@ -1,0 +1,14 @@
+
+:root {
+    --teal: #6ac5b9;
+    --tomato: #f86358;
+    --yellow: #faf892;
+    --almostblack: #222222;
+}
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    background-color: var(--tomato);
+}

@@ -1,0 +1,29 @@
+
+:root {
+    --teal: #6ac5b9;
+    --purple: #f86358;
+    --yellow: #faf892;
+    --almostblack: #222222;
+}
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    color: var(--almostblack);
+    background: url('../img/cactus.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+h2 {
+    color: var(--teal);
+    line-height: 32px;
+}
+
+#about {
+    clear: both;
+    padding-top: 100px;
+    margin-left: 10%;
+    width: 80%;
+    max-width: 1100px;
+    line-height: 24px;
+}

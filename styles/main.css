@@ -1,0 +1,32 @@
+/* main styles */
+
+:root {
+    --teal: #6ac5b9;
+    --tomato: #f86358;
+    --yellow: #faf892;
+    --almostblack: #222222;
+}
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    background-color: var(--teal); 
+}
+
+/* home styles */
+
+h1 {
+    clear: both;
+    padding-top: 200px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+p {
+    color:  var(--yellow);
+    font-size: 20px;
+    font-weight: 600;
+}
