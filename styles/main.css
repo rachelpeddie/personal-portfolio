@@ -1,19 +1,57 @@
 /* main styles */
 
 :root {
-    --teal: #6ac5b9;
-    --tomato: #f86358;
-    --yellow: #faf892;
+    --primary: #366e52;
+    --secondary: #fdc4ae;
+    --tertiary: #fff;
+
+    /* --primary: #ec3818;
+    --secondary: #fff;
+    --tertiary: #222222; */
+
+    /* --primary: #c5b5e4;
+    --secondary: #043fad;
+    --tertiary: #e9e9e9; */
+    
+    /* --primary: #86b6b9;
+    --secondary: #571134;
+    --tertiary: #ffca1b; */
+
     --almostblack: #222222;
 }
 
 body {
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 400;
-    color: #fff;
+
+    /* color: var(--offwhite);
+    background-color: var(--green);  */
+
+    /* color: var(--red);
+    background-color: var(--almostblack);  */
+
+    /* color: var(--lightblue);
+    background-color: var(--lavender);  */
+
+    color: var(--secondary);
+    background-color: var(--primary); 
+
     text-align: center;
-    background-color: var(--teal); 
 }
+
+
+/* nav styles */
+
+nav ul li a {
+    color:  var(--secondary); 
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover {
+    color:  var(--tertiary);
+}
+
 
 /* home styles */
 
@@ -26,7 +64,14 @@ h1 {
 }
 
 p {
-    color:  var(--yellow);
+    /* color:  var(--pink); */
+    
+    /* color:  var(--white); */
+
+    /* color: var(--gray); */
+
+    color: var(--tertiary);
+
     font-size: 20px;
     font-weight: 600;
 }

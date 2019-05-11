@@ -21,12 +21,6 @@ nav li a {
     padding: 12px;
 }
 
-nav ul li a {
-    color:  var(--tomato); 
-    text-decoration: none;
-    
-}
-
-nav ul li a:hover {
-    color:  var(--yellow);
+nav li a:hover {
+    font-weight: 600;
 }

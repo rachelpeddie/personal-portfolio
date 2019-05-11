@@ -1,58 +1,76 @@
 
 :root {
-    --teal: #6ac5b9;
+    /* --teal: #6ac5b9;
     --tomato: #fd4134;
-    --yellow: #faf880;
+    --yellow: #faf880; */
+
+    --primary: #366e52;
+    --secondary: #fdc4ae;
+    --tertiary: #fff;
+
     --almostblack: #222222;
 }
 
 body {
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 400;
-    color: var(--tomato);
-    background-color: #e9e9e9;
+    font-size: 20px;
+    color: var(--tertiary);
+    background-color: var(--tertiary)
+}
+
+
+/* nav styles */
+
+nav ul li a {
+    color:  var(--primary); 
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover {
+    color:  var(--secondary);
 }
 
 
 #contact {
-    width: 100%;
+    padding: 16px;
+    clear: both;
 }
 
-.left-side{
-  width: 50%;
-  float:left;
-}
-
-.right-side{
-  width: 50%;
-  float:left;
-}
 
 img {
     width: 600px;
-    border: 10px solid var(--teal);
+    border-radius: 30px;
 }
 
 li {
     list-style-type: none;
-    line-height: 30px;
+    line-height: 36px;
 }
 
 a {
-    color: var(--tomato);
+    color: var(--primary);
     text-decoration: none;
 }
 
+h2 {
+    font-size: 30px;
+    padding-left: 30px;
+    color: var(--primary);
+}
+
+
 a:hover {
-    color: var(--almostblack);
+    font-weight: 900;
 }
 
 i {
-    color: var(--teal);
+    color: var(--secondary);
     margin-right: 20px;
 }
 
 .icon {
-    font-size: 24px;
+    font-size: 32px;
     vertical-align: middle;
 }

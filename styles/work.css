@@ -1,8 +1,13 @@
 
 :root {
-    --teal: #6ac5b9;
+    /* --teal: #6ac5b9;
     --tomato: #f86358;
-    --yellow: #faf892;
+    --yellow: #faf892; */
+
+    --primary: #366e52;
+    --secondary: #fdc4ae;
+    --tertiary: #fff;
+
     --almostblack: #222222;
 }
 
@@ -10,5 +15,28 @@ body {
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 400;
     color: #fff;
-    background-color: var(--tomato);
+    background-color: var(--primary);
+}
+
+
+/* nav styles */
+
+nav ul li a {
+    color:  var(--secondary); 
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover {
+    color:  var(--tertiary);
+}
+
+/* main styles */
+
+h1 {
+    color: var(--tertiary);
+    clear: both;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 100px;
 }
