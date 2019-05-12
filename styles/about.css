@@ -4,18 +4,19 @@
     --purple: #f86358;
     --yellow: #faf892; */
 
-    --primary: #366e52;
-    --secondary: #fdc4ae;
-    --tertiary: #fff;
+    --primary: #2c3653;
+    --secondary: #dab1ac;
+    --tertiary: #462a6b;
+    --four:  #457470;
 
-    --almostblack: #222222;
+    --white: #fff;
 }
 
 body {
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 400;
-    color: var(--almostblack);
-    background: url('../img/cactus.jpg') no-repeat center fixed;
+    color: var(--white);
+    background: url('../img/mountains.jpg') no-repeat center fixed;
     background-size: cover;
 }
 
@@ -34,7 +35,7 @@ nav ul li a:hover {
 
 
 h2 {
-    color: var(--primary);
+    color: var(--secondary);
     line-height: 32px;
 }
 
@@ -45,4 +46,11 @@ h2 {
     width: 80%;
     max-width: 1100px;
     line-height: 24px;
+}
+
+#about-text {
+    border-radius: 8px;
+    padding: 18px;
+    /* background-color: rgba(44, 54, 83, 0.486) */
+    background-color: #4574705d;
 }

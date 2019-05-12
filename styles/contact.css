@@ -4,44 +4,50 @@
     --tomato: #fd4134;
     --yellow: #faf880; */
 
-    --primary: #366e52;
-    --secondary: #fdc4ae;
-    --tertiary: #fff;
+    --primary: #2c3653;
+    --secondary: #dab1ac;
+    --tertiary: #462a6b;
+    --four:  #457470;
 
-    --almostblack: #222222;
+    --white: #fff;
 }
 
 body {
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 400;
     font-size: 20px;
-    color: var(--tertiary);
-    background-color: var(--tertiary)
+    color: var(--secondary);
+    background-color: var(--primary)
 }
 
 
 /* nav styles */
 
 nav ul li a {
-    color:  var(--primary); 
+    color:  var(--secondary); 
     text-decoration: none;
     
 }
 
 nav ul li a:hover {
-    color:  var(--secondary);
+    color:  var(--white);
 }
 
 
-#contact {
-    padding: 16px;
-    clear: both;
+.contact {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 60%;
 }
 
+.contact-child {
+    margin: 0 auto;
+}
 
 img {
-    width: 600px;
-    border-radius: 30px;
+    width: 80%;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 li {
@@ -50,14 +56,14 @@ li {
 }
 
 a {
-    color: var(--primary);
+    color: var(--white);
     text-decoration: none;
 }
 
 h2 {
+    padding-left: 20px;
     font-size: 30px;
-    padding-left: 30px;
-    color: var(--primary);
+    color: var(--secondary);
 }
 
 
